@@ -1,0 +1,103 @@
+.container {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    width:750px;
+    aspect-ratio: 14/9;
+
+    border-radius: 30px;
+
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 20px hsl(252, 7%, 72%);
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+
+    .left-box {
+        position:absolute;
+
+        width:50%;
+        height:100%;
+
+        border-radius: 30px;
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+        #results {
+            font-weight:500;
+            font-size:30px;
+
+            text-align: center;
+            color: rgba(200, 199, 255, 0.845);
+            position:relative;
+            top:15px;
+        }
+
+        .circle {
+            width:50%;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+            position:absolute;
+            left:50%;
+            top:22%;
+            transform: translate(-50%, 0);
+
+            #top-number {
+                font-weight: 800;
+                font-size:75px;
+                text-align: center;
+                margin: 0 auto;
+                position:relative;
+                top:30px;
+                color:white;
+            }
+
+            #bottom-number {
+                font-weight: 500;
+                font-size:18px;
+                text-align:center;
+                margin: 0 auto;
+                position:relative;
+                top:30px;
+                color:rgba(200, 199, 255, 0.575)
+            }
+        }
+    }
+}
+
+    /**
+    .container {
+
+
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Outfit', sans-serif;
+        
+        .left-box {
+            width:50%;
+            height:100%;
+            border-radius: 30px;
+            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+            .circle {
+                width:50%;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                
+                position:relative;
+                left:50%;
+                top:20%;
+                transform:translate(-50%, 0);
+
+                background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+                #top-number {
+                    font-weight: 800;
+                    font-size:50px;
+                }
+            }
+        }
+    }
+    */
