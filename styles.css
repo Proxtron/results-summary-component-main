@@ -54,37 +54,111 @@
   top: 30px;
   color: rgba(200, 199, 255, 0.575);
 }
-
-/**
-.container {
-
-
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-family: 'Outfit', sans-serif;
-
-    .left-box {
-        width:50%;
-        height:100%;
-        border-radius: 30px;
-        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-
-        .circle {
-            width:50%;
-            aspect-ratio: 1/1;
-            border-radius: 50%;
-
-            position:relative;
-            left:50%;
-            top:20%;
-            transform:translate(-50%, 0);
-
-            background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-
-            #top-number {
-                font-weight: 800;
-                font-size:50px;
-            }
-        }
-    }
+.container .left-box #classification {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 45%;
+  color: white;
 }
-*//*# sourceMappingURL=styles.css.map */
+.container .left-box p {
+  margin-left: 15%;
+  margin-right: 15%;
+  color: rgba(200, 199, 255, 0.792);
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+.container .right-box {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  right: 0%;
+}
+.container .right-box .central-box {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  top: 0px;
+}
+.container .right-box .central-box #summary {
+  font-weight: 600;
+  color: hsla(224, 30%, 27%, 0.888);
+  font-size: 30px;
+  margin-top: 40px;
+}
+.container .right-box .central-box .categories {
+  width: 100%;
+  height: 55%;
+}
+.container .right-box .central-box .categories #reaction {
+  width: 100%;
+  height: 20%;
+  background-color: hsla(0, 100%, 67%, 0.25);
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.container .right-box .central-box .categories #reaction img {
+  position: relative;
+  width: 25px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.container .right-box .central-box .categories #memory {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 5%;
+  background-color: hsla(39, 100%, 56%, 0.25);
+  border-radius: 10px;
+}
+.container .right-box .central-box .categories #memory img {
+  position: relative;
+  width: 25px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.container .right-box .central-box .categories #verbal {
+  width: 100%;
+  height: 20%;
+  margin-bottom: 5%;
+  background-color: hsla(166, 100%, 37%, 0.25);
+  border-radius: 10px;
+}
+.container .right-box .central-box .categories #verbal img {
+  position: relative;
+  width: 25px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.container .right-box .central-box .categories #visual {
+  width: 100%;
+  height: 20%;
+  background-color: hsla(234, 85%, 45%, 0.25);
+  border-radius: 10px;
+}
+.container .right-box .central-box .categories #visual img {
+  position: relative;
+  width: 25px;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+.container .right-box .central-box button {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: 0px;
+  position: relative;
+  top: 25px;
+  background-color: hsl(224, 30%, 27%);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-family: "Outfit", sans-serif;
+  color: rgb(227, 227, 238);
+  font-weight: 500;
+  font-size: 18px;
+}
+.container .right-box .central-box button:hover {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}/*# sourceMappingURL=styles.css.map */
